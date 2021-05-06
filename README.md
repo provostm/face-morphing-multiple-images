@@ -1,8 +1,8 @@
 # face-morphing-multiple-images
 
-Credit to: https://github.com/Azmarie/Face-Morphing
-This repo is an upgrade where we can morph multiple images into video.
-Check Azmmarie's repo first.
+Credit to: https://github.com/Azmarie/Face-Morphing \n
+This repo is an upgrade where we can morph multiple images into video.\n
+Check Azmmarie's repo first.\n
 
 # Execution
 
