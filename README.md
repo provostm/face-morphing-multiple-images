@@ -24,3 +24,11 @@ Note that this will create temporary videos (```--tmpfolder```) and then combine
 - ```--frame``` : The frame rate of the encoding.
 - ```--output``` : Final video path.
 - ```--tmpfolder``` : Folder to store intermediate videos.
+
+# How it works on multiple videos?
+1. The program goes through all the images in ```--folder``` with a for loop
+2. For each 2 images we apply what was done by Azmarie's original repo and this output a video. We store it in ```--tmpfolder```
+3. We append to a text file nammed ```imageslist.txt``` the name of the video like so : ```file <filename>```
+4. After dealing with all images we can combine all the videos into one using ```imageslist.txt``` and the right ffmpeg command.
+
+```ffmpeg -f concat -safe 0 -i imageslist.txt -c copy output.mp4```
