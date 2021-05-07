@@ -16,6 +16,12 @@ Check out Azmarie's repo first to understand all the details.
 
 Note that this will create temporary videos (```--tmpfolder```) and then combine them into one video (```--output```).
 
+Results :
+
+![ezgif-3-0130e3d9d289](https://user-images.githubusercontent.com/24222091/117420318-c04b3a00-af1d-11eb-84e7-053160089619.gif)
+
+
+
 # Details to call code/__init__.py
 - ```--img1``` : The First Image (not necessary when ```--folder``` is used)
 - ```--img2``` : The Second Image (not necessary when ```--folder``` is used)
