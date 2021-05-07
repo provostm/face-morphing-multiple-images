@@ -34,7 +34,7 @@ Results :
 # How it works on multiple videos?
 1. The program goes through all the images in ```--folder``` with a for loop
 2. For each 2 images we apply what was done by Azmarie's original repo and this outputs a video. We store them in ```--tmpfolder```
-3. We append to a text file named ```imageslist.txt``` the names of the videos like so : ```file <filename_of_the_video>```
+3. We append to a text file named ```imageslist.txt``` the names of the videos like so : ```file '<filename_of_the_video>'```
 4. After dealing with all images we can encode one big video using ```imageslist.txt``` and the right ffmpeg command:
 
 ```ffmpeg -f concat -safe 0 -i imageslist.txt -c copy output.mp4```
