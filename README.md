@@ -8,7 +8,7 @@ Check out Azmarie's repo first to understand all the details.
 
 # Execution
 
-1. Place you images in a folder, for example ```raw_images```
+1. Place your images in a folder, for example ```raw_images```
 2. Use the command ```python code/utils/align_images.py raw_images/ aligned_images/ --output_size=1024``` to select images from "raw_images" with a face and align/rotate them and put them in "aligned_images".
 3. Launch the command to create the video : 
 
